@@ -1,0 +1,237 @@
+/* login START */
+body{
+    background: #74596c;
+    color: white;
+}
+.login {
+    padding: 0;
+}
+.login-image {
+    background: linear-gradient(#74596c,#f5e9c1);
+    height: 100vh;
+    margin: 0;
+    filter: blur(1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-info {
+    background: linear-gradient(#5d4660,#5d4660,white);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-60px, -50%);
+    z-index: 2;
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+}
+.login-info2 {
+    background: linear-gradient(#5d4660,#5d4660);
+    color: #efe6cc;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    border-radius: 12px;
+    left: 30%;
+    transform: translate(-60px, -50%);
+    z-index: 2;
+    width:  45%;
+    height: 800px;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color:#efe6cc ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+H2{
+    margin-top: 6px;
+    margin-bottom: 6%;
+    color:#efe6cc ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login-info .btn-submit {
+    color: 	#efe6cc;
+    width: 150px;
+    border: none;
+    margin-top: 20px;
+    background: #5d4660;
+    
+}
+.login-info2 .btn-submit {
+    color: 	#5d4660;
+    font-weight: bold;
+    width: 150px;
+    border: none;
+    margin-top: 20px;
+    background:  #f0da9f;
+    
+}
+
+
+/* login END */
+
+/* navbar START */
+
+.nav-brand {
+    color: #3a041fdc  !important;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #3a041fdc  !important;
+    font-size: 20px;
+    font-weight: bold;
+
+ 
+}
+
+/* navbar END */
+
+/* content START */
+.content {
+    margin-top: 100px;
+}
+/* content END */
+
+/* index START */
+.task input[type="checkbox"] {
+    display: none;
+}
+
+.task .taskLabel {
+    position: relative;
+    margin-left:    20px;
+}
+label{
+    color: #74596c;
+    font-weight: bold;
+}
+li{
+    margin-left:40px;
+    margin-right:80px;
+}
+
+.task .taskLabel::before {
+    content: "";
+    background: url("../images/check-square.svg");
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -30px;
+    transform: scale(0) rotateZ(180deg);
+    transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
+}
+
+
+.task input[type="checkbox"]:checked + .taskLabel::before {
+    transform: scale(1) rotateZ(0deg);
+}
+
+.task .taskLabel::after {
+    content: "";
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -29.7px;
+    top: 0.4px;
+    border-radius: 50%;
+}
+
+.task a {
+    color: #2e0a0e;
+    position: absolute;
+    left: 330px;
+}
+
+.todolist .card-header {
+    position: relative;
+}
+
+.todolist .card-header .create-task-btn {
+    position: absolute;
+    right: 20px;
+    background: none;
+    border: none;
+    color: black;
+}
+
+.todolist .card-header .create-task-btn {
+    position: absolute;
+    right: 50px;
+    background: none;
+    border: none;
+    color: black;
+}
+.todolist .card-header .edit-todolist-btn {
+    position: absolute;
+    right: 80px;
+    background: none;
+    border: none;
+    color: black;
+}
+.todolist .card-header .color-todolist-btn {
+    position: absolute;
+    right: 120px;
+    background: none;
+    border: none;
+    color: black;
+}
+
+.todolist .card-header .delete-todolist-btn {
+    position: absolute;
+    right: 20px;
+    background: none;
+    border: none;
+    color: black;
+}
+
+
+
+.todolist .card-body .task {
+    position: relative;
+}
+
+.todolist .card-body .task .edit-task-btn {
+    position: absolute;
+    right: 20px;
+    top: -2px;
+    background: none;
+    border: none;
+    color: black;
+}
+
+.todolist .modal-content {
+    color: black;
+}
+/* index END */
+
+/* profile START */
+.profile .info .card {
+    background: black;
+    background: #3a041fdc;
+    color: white;
+    border: none;
+    
+}
+
+.profile .info .card .col-md-8 {
+    padding: 30px;
+}
+
+.profile .info .card .col-md-8 p label {
+    margin: 0 10px;
+}
+/* profile END */
+
+/* photo START */
